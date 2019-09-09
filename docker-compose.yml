@@ -1,0 +1,6 @@
+version: '3'
+services:
+  rabbitmq:
+    image: library/rabbitmq
+    ports:
+      - "5672:5672"
